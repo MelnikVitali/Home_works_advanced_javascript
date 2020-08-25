@@ -1,0 +1,63 @@
+.table {
+    margin: 10px auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.cell {
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+}
+
+.cell-blue {
+    background-color: blue;
+}
+
+.cell-red {
+    background-color: red;
+}
+
+.cell-green {
+    background-color: green;
+}
+
+.title {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+
+}
+
+.block-winner {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.winner {
+    display: inline-block;
+    padding: 3px;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    color: red;
+    margin-top: 4px;
+}
